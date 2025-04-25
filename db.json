@@ -595,6 +595,12 @@
       "name": "Spaghetti Carbonara",
       "price": 950,
       "description": "Creamy pasta with bacon and egg."
+    },
+    {
+      "id": "2-5",
+      "name": "Tiramisu",
+      "price": 600,
+      "description": "Coffee-flavored Italian dessert."
     }
   ]
 }
