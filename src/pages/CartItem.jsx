@@ -3,11 +3,6 @@ import React from "react";
 export default function CartItem({ item, onIncrease, onDecrease, onDelete }) {
   return (
     <div className="flex items-center justify-between bg-white p-4 rounded-xl shadow mb-4">
-      <img
-        className="w-20 h-20 object-cover rounded"
-        src={item.image}
-        alt={item.name}
-      />
       <div className="flex-1 px-4">
         <h3 className="font-semibold text-lg">{item.name}</h3>
         <p className="text-sm text-gray-500">{item.description}</p>
